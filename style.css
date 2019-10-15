@@ -1,0 +1,267 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to top,#e1e1e1, white);
+    border: 1px double #cfc7c7;
+    color: #676666;
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+}
+
+
+#header-orange, #header-grey {
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: URW Chancery L;             
+}
+
+#header-orange{
+    color: #ff7700;
+    padding-left: 130px;
+}
+
+li {
+    position: absolute;
+    padding: 40px 10px 20px 10px;
+    height: 25px;
+    
+}
+
+#header-menu li {
+    bottom: 55px;
+    position: relative;;
+    display: flex;
+    flex-wrap: wrap; 
+    
+
+}
+
+.fa {
+    position: absolute;
+    font-size: 23px;
+    color: rgb(70, 67, 67);
+    max-width: 100%;
+    display: block;
+    top: 80px;
+    left: 40px;
+    
+
+}
+
+header nav {
+    padding: 0 50px 0 130px;
+}
+
+
+
+header ul {
+    
+    display: flex;
+    padding: 0 50px 0 100px; 
+    border: #ff7700;
+}
+
+
+header a {
+    padding:75px 20px 20px 20px;
+    display: flex;
+    color: rgb(70, 67, 67);
+    border: 1px double #cfc7c7;
+    border-top: none;
+    border-bottom: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header a:hover{
+    border-bottom: outset;
+    color: #ff7700;
+    
+    background: linear-gradient(to top,#cfc7c7, white);
+    
+}
+
+h2 {
+    padding: 20px 330px;
+    color: #676666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+form .row {
+    max-width: 100%;
+    border-radius: 5px;
+    padding-bottom: 19px;
+    padding-top: 3px;
+    left: 330px;
+    font-size: 30px;
+    height: 12px;
+    box-shadow: 0 0 4px 0;
+    position: relative;
+    
+}
+
+button {
+    margin: 0; 
+    padding: 4px 20px;
+    bottom: 38px;
+    left: 685px;
+    position: relative;
+    background: #c1bfbf;
+    cursor: all-scroll;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button.new {
+    margin: 0;
+    padding: 8px 35px;
+    left: 750px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ff7700;
+    color: #e1e1e1;
+    border-radius: 5px;
+}
+
+
+
+#Premium {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+    
+}
+
+#Premium > div {
+width: 25%;
+text-align: center;
+position: relative;
+top: 10px;
+left: 50px;
+
+
+
+}
+
+#premium > div img {
+max-width: 100%;
+text-align: center;
+}
+
+img {
+    margin: 12px;
+}
+
+div.wrap {
+    
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #c1bfbf;
+    border: 1px solid #e1e1e1;
+    box-shadow: inset 0 -7px 9px 1px #c1bfbf;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+
+.social-buttons > .facebook .fa {
+    margin-top: 190px;
+    margin-left: 120px;
+    color: #c1bfbf;
+}
+
+.social-buttons > .twitter .fa {
+    margin-top: 190px;
+    margin-left: 140px;
+    color: #c1bfbf;
+}
+
+.social-buttons > .instagram .fa {
+
+    margin-top: 190px;
+    margin-left: 168px;
+    color: #c1bfbf;
+}
+
+.social-buttons > .vk .fa {
+margin-top: 190px;
+margin-left: 194px;
+color: #c1bfbf;
+}
+
+small {
+    margin-left: 10px;
+    
+
+}
+
+span {
+    margin-right: 40px;
+   
+}
+
+div#Premium {   
+    margin-right: 130px;
+
+}
+
+div#Premium1 {
+margin: auto;
+background: linear-gradient(to top,#e1e1e1, white);
+
+}
+
+hr {
+    padding-right: 30px;
+    margin-left: 10px;
+    color: #e1e1e1;
+}
+
+div.wrap > .fa {
+     padding-bottom: 30px;
+     position: static;
+     color: #ff7700;
+        }
+
+    span {
+    left: 10px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 50px 0;
+        margin-left: 686px;
+        color: #676666;
+    }
+
+    footer > .fa {
+        margin-top: 96%;
+        margin-left: 62%;
+        font-size: 15px;
+        color: #c1bfbf;
+    }
+
+    

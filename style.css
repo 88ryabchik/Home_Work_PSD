@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -10,12 +11,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     background: linear-gradient(to top,#e1e1e1, white);
-    border: 1px double #cfc7c7;
+    border: 1px solid #cfc7c7;
     color: #676666;
 }
 
 
 #container {
+    min-width: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
@@ -63,7 +65,7 @@ li {
 }
 
 header nav {
-    padding: 0 50px 0 130px;
+    padding: 0 151px 0 130px;
 }
 
 
@@ -91,7 +93,7 @@ header a {
 header a:hover{
     border-bottom: outset;
     color: #ff7700;
-    
+
     background: linear-gradient(to top,#cfc7c7, white);
     
 }
@@ -104,36 +106,40 @@ h2 {
     
 }
 
+
+
 form .row {
     max-width: 100%;
-    border-radius: 5px;
-    padding-bottom: 19px;
-    padding-top: 3px;
+    text-align: center;
+    margin-bottom: 13px;
+    display: block; 
+    justify-content: center;
+    padding: 8px 0;
+    border-radius: 5px; 
     left: 330px;
     font-size: 30px;
-    height: 12px;
-    box-shadow: 0 0 4px 0;
+    height: 17px;
+    box-shadow: 0 0 3px 0;
     position: relative;
     
 }
 
+
 button {
-    margin: 0; 
+    margin: 0 0 121px 0px; 
     padding: 4px 20px;
-    bottom: 38px;
+    bottom: 50px;
     left: 685px;
     position: relative;
     background: #c1bfbf;
     cursor: all-scroll;
     color: white;
     border-radius: 5px;
-    text-align: center;
 }
 
 button.new {
-    margin: 0;
-    padding: 8px 35px;
-    left: 750px;
+    margin: 0 0 127px 65px;
+    height: 38px;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     background: #ff7700;
@@ -144,11 +150,13 @@ button.new {
 
 
 #Premium {
+    position: relative;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 30px;
+    text-align: center;
+    margin: -100px 90px 50px 90px;
+
     
 }
 
@@ -156,7 +164,6 @@ button.new {
 width: 25%;
 text-align: center;
 position: relative;
-top: 10px;
 left: 50px;
 
 
@@ -166,6 +173,14 @@ left: 50px;
 #premium > div img {
 max-width: 100%;
 text-align: center;
+}
+
+.Premium1, .Premium2, .Premium3, .Premium4 {
+    padding: 0 0 25px 0;
+}
+
+.Premium5, .Premium6, .Premium7, .Premium8 {
+    padding: 0 0 25px 0;
 }
 
 img {
@@ -186,6 +201,8 @@ div.wrap {
 
 
 .social-buttons > .facebook .fa {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 190px;
     margin-left: 120px;
     color: #c1bfbf;
@@ -250,15 +267,16 @@ div.wrap > .fa {
 
     footer {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: baseline;
-        padding: 50px 0;
+        padding: 20px 0;
         margin-left: 686px;
         color: #676666;
     }
 
     footer > .fa {
-        margin-top: 96%;
+        margin-top: 100%;
         margin-left: 62%;
         font-size: 15px;
         color: #c1bfbf;

@@ -17,7 +17,7 @@ header {
 
 
 #container {
-    min-width: 100%;
+    
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
@@ -26,6 +26,8 @@ header {
 
 
 #header-orange, #header-grey {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 20px;
     font-size: 50px;
     font-family: URW Chancery L;             
@@ -66,6 +68,7 @@ li {
 
 header nav {
     padding: 0 151px 0 130px;
+    
 }
 
 
@@ -99,7 +102,9 @@ header a:hover{
 }
 
 h2 {
-    padding: 20px 330px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 330px;;
     color: #676666;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -112,7 +117,8 @@ form .row {
     max-width: 100%;
     text-align: center;
     margin-bottom: 13px;
-    display: block; 
+    display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
     padding: 8px 0;
     border-radius: 5px; 
@@ -132,7 +138,7 @@ button {
     left: 685px;
     position: relative;
     background: #c1bfbf;
-    cursor: all-scroll;
+    cursor: alias;
     color: white;
     border-radius: 5px;
 }
@@ -282,4 +288,50 @@ div.wrap > .fa {
         color: #c1bfbf;
     }
 
+    @media(max-width: 800px) {
+        header ul {
+            padding: 0;
+        }
+
+        #header-orange, #header-grey {
+            margin-left: 30px;
+        }
+        h2 {
+            padding: 0 0 0 70px;
+        }
+
+        form .row {
+            font-size: 22px;
+            left: 90px;
+            
+        }
+
+        button {
+            margin: 0;
+            bottom: 50px;
+            left: 325px;
+            
+        }
+        
+        button.new {
+            margin-left: 10px;
+            
+        }
+
+        #Premium > div {
+            width: 50%;
+            
+    }
+
+    .Premium11, .Premium12 {
+        padding-top: 20px;
+    }
+
     
+        
+
+    footer > .fa {
+        padding: 20px 0;
+        margin-top: 2300px;
+        margin-left: 200px;
+    }

@@ -1,5 +1,7 @@
 
 body {
+    background: url(image.jpg) no-repeat center center fixed;
+    background-size: cover; 
     padding: 0;
     margin: 0;
 }
@@ -67,7 +69,7 @@ li {
 }
 
 header nav {
-    padding: 0 151px 0 130px;
+    padding: 0 145px 0 130px;
     
 }
 
@@ -105,7 +107,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     padding: 20px 330px;;
-    color: #676666;
+    color: #ff7700;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     
